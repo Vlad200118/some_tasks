@@ -63,7 +63,7 @@ public:
 		if (empty()) throw std::exception("Buffer is empty");
 		return data[head];
 	}
-	data_type back() //Хочу посмотреть, кто в начале очереди очереди
+	data_type back() //Хочу посмотреть, кто в начале коцне очереди
 	{
 		if (empty()) throw std::exception("Buffer is empty");
 		return data[prev(tail)];
